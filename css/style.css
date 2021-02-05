@@ -1384,8 +1384,8 @@ button:focus {
     border: 1px solid white;
 }
 .down-item-icons a i{
-    margin-right: 5px;
-    font-size: 30px;
+    margin-right: 12px;
+    font-size: 26px;
 }
 .down-item-icons a:hover{
     background-color: #17a2b8;
