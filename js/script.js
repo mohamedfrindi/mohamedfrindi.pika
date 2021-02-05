@@ -1,3 +1,18 @@
+/*------- loding page --------*/
+$(document).ready(function () {
+    $(window).on('load',function () {
+        $('.load').fadeOut();
+    })
+	/*
+    setTimeout(function () {
+		$('.loding').slideUp();
+	},10000);
+	*/
+});
+/*------------X-------------X-----------*/
+
+
+
 // about section -------------------
 $(document).ready(function () {
     // add class active
