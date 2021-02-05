@@ -784,6 +784,7 @@ button:focus {
     overflow: hidden;
     width: 70%;
     height: 80%;
+    margin-top:30px;
 }
 .video-prev i{
     color: white;
