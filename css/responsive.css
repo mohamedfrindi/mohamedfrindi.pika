@@ -1,0 +1,756 @@
+@media (max-width: 575px) {
+
+
+    .pd{
+        padding: 5% 0;
+    }
+    .section-title{
+        padding: 3% 0;
+    }
+    .section-title-info {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .section-title-main {
+        width: 100%;
+        font-size: 26px;
+        line-height: 1.6;
+    }
+
+
+
+    /*---------------  home ---------------*/
+    .navbar-light .navbar-toggler{
+        background-color: white;
+    }
+    .home .navbar {
+        width: 100%;
+        z-index: 99999999;
+        
+    }
+    .navbar-collapse{
+        background-color: white;
+        padding: 10px;
+        z-index: 999999;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 0px 5px #9e9e9e;
+        -webkit-box-shadow: 0px 0px 5px #9e9e9e;
+        -moz-box-shadow: 0px 0px 5px #9e9e9e;
+        -o-box-shadow: 0px 0px 5px #9e9e9e;
+        -ms-box-shadow: 0px 0px 5px #9e9e9e;
+    }
+    .navbar .navbar-brand {
+        color: #e0dcdc;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item .nav-link span{
+        color: black;
+    }
+    .home-content {
+        height: 100%;
+    }
+    .home-item-img {
+        width: 50%;
+        height: 50%;
+    }
+    /*------------X------------X---------------*/
+
+
+    /*---------------- about --------------*/
+    .about {
+        padding-bottom: 20%;
+    }
+    .about-item-top{
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .about-item-title{
+        font-size: 30px;
+    }
+    .btn.rsp{
+        margin-top: -30px;
+    }
+    /*--------------X-------------X---------*/
+
+
+
+    /*--------------- Feature ----------------------*/
+    .feature{
+        padding-bottom: 5%;
+    }
+    .feature-item {
+        padding: 20px 50px;
+    }
+    /*-----------X-----------X-----------------------*/
+
+
+
+    /*-------------- video ----------------------*/
+    .video{
+        margin-bottom: 5%;
+    }
+    .video-title {
+        font-size: 20px;
+    }
+    .video-desc {
+        width: 100%;
+        line-height: 2.4;
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    .plyr--video{
+        width: 100%;
+        height: 100%;
+    }
+    .video-prev i {
+        top: 17%;
+        z-index: 9;
+    }
+    /*-------------X------------X-------------------*/
+
+
+    /*---------------- choose ------------------*/
+    .choose-item {
+        margin-bottom: 30px;
+    }
+    .choose-spn{
+        font-size: 15px;
+    }
+    .choose-title{
+        font-size: 30px;
+    }
+    .choose-desc{
+        margin-bottom: 25px;
+    }
+    .choose-icone-item i {
+        width: 80px;
+        height: 80px;
+        float: none;
+        margin: auto;
+        margin-bottom: 13px;
+    }
+    .choose-icone-item span {
+        font-size: 16px;
+        margin-bottom: 1px;
+        text-align: center;
+    }
+    .choose-icone-item p {
+        padding-left: 0;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .choose-icone-item {
+        width: 100%;
+        padding: 25px 0;
+    }
+    /*-------------X------------X---------------*/
+
+
+    /*--------------- review ----------------*/
+    .review{
+        margin-bottom: 10%;
+    }
+    .review-item-name {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+        width: 70%;
+    }
+    .review-item-info {
+        display: block;
+        letter-spacing: 0.35px;
+        text-transform: capitalize;
+        width: 70%;
+        margin-left: 0;
+    }
+    /*------------X---------------X--------------*/
+
+
+
+    /*------------------- faq ---------------------*/
+    .ui-widget{
+        margin-bottom: 37px;
+    }
+    .faq-item.img {
+        padding: 0 50px;
+        display: none;
+    }
+    /*--------------X--------------X---------------*/
+
+
+
+    /*-------------- shop ------------------*/
+    .shop {
+        width: 100%;
+        margin-bottom: 10%;
+        padding: 0;
+        padding-top: 3%;
+    }
+    .shop-info-desc {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .shop-slide .item{
+        box-shadow: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            -o-box-shadow: none;
+            -ms-box-shadow: none;
+    }
+    /*-------------X-------------X------------*/
+
+
+    /*------------- download ----------------*/
+    .download{
+        margin-bottom: 10%;
+    }
+    .down-item-title {
+        font-size: 23px;
+        width: 80%;
+    }
+    .down-item-desc {
+        width: 90%;
+        line-height: 2.3;
+    }
+    /*-----------X------------X--------------*/
+
+
+    /*-------------- contact --------------*/
+    .cont-items {
+        position: relative;
+    }
+    .form-content {
+        margin-bottom: 10px;
+    }
+    .cont-item-info h4{
+        font-size: 20px;
+    }
+    .cont-item-info span{
+        font-size: 13px;
+    }
+    .contact-item.right {
+        margin-bottom: 17px;
+    }
+    .contact-content .row{
+        flex-flow: wrap-reverse;
+    }
+    .form-top-title{
+        font-size: 23px;
+    }
+    /*--------------X--------------X----------*/
+
+
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .pd{
+        padding: 5% 0;
+    }
+    .section-title{
+        padding: 3% 0;
+    }
+    .section-title-info {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .section-title-main {
+        width: 100%;
+        font-size: 26px;
+        line-height: 1.6;
+    }
+
+
+
+    /*---------------  home ---------------*/
+    .navbar-light .navbar-toggler{
+        background-color: white;
+    }
+    .home .navbar {
+        width: 100%;
+        z-index: 99999999;
+    }
+    .navbar-collapse{
+        background-color: white;
+        padding: 10px;
+        z-index: 999999;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 0px 5px #9e9e9e;
+        -webkit-box-shadow: 0px 0px 5px #9e9e9e;
+        -moz-box-shadow: 0px 0px 5px #9e9e9e;
+        -o-box-shadow: 0px 0px 5px #9e9e9e;
+        -ms-box-shadow: 0px 0px 5px #9e9e9e;
+    }
+    .navbar .navbar-brand {
+        color: #e0dcdc;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item .nav-link span{
+        color: black;
+    }
+    .home-content {
+        height: 100%;
+    }
+    .home-item-img {
+        width: 50%;
+        height: 50%;
+    }
+    /*------------X------------X---------------*/
+
+
+    /*---------------- about --------------*/
+    .about {
+        padding-bottom: 20%;
+    }
+    .about-item-top{
+        margin-bottom: 0;
+        font-size: 15px;
+    }
+    .about-item-title{
+        font-size: 30px;
+    }
+    .btn.rsp{
+        margin-top: -30px;
+    }
+    /*--------------X-------------X---------*/
+
+
+
+    /*--------------- Feature ----------------------*/
+    .feature{
+        padding-bottom: 5%;
+    }
+    .feature-item {
+        padding: 20px 50px;
+    }
+    /*-----------X-----------X-----------------------*/
+
+
+
+    /*-------------- video ----------------------*/
+    .video{
+        margin-bottom: 5%;
+    }
+    .video-title{
+        font-size: 30px;
+    }
+    .video-desc {
+        width: 95%;
+        line-height: 3;
+        margin-bottom: 30px;
+    }
+    .plyr--video{
+        width: 100%;
+        height: 100%;
+    }
+    .video-prev i {
+        top: 17%;
+        z-index: 9;
+    }
+    /*-------------X------------X-------------------*/
+
+
+    /*---------------- choose ------------------*/
+    .choose-item {
+        margin-bottom: 30px;
+    }
+    .choose-spn{
+        font-size: 15px;
+    }
+    .choose-title{
+        font-size: 30px;
+    }
+    .choose-desc{
+        margin-bottom: 25px;
+    }
+    .choose-icone-item i{
+        width: 80px;
+        height: 80px;
+    }
+    .choose-icone-item span {
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+    /*-------------X------------X---------------*/
+
+
+    /*--------------- review ----------------*/
+    .review{
+        margin-bottom: 10%;
+    }
+    .review-item-name {
+        display: block;
+        margin-left: 30px;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+        width: 70%;
+    }
+    .review-item-info {
+        display: block;
+        letter-spacing: 0.35px;
+        text-transform: capitalize;
+        width: 70%;
+    }
+    /*------------X---------------X--------------*/
+
+
+
+    /*------------------- faq ---------------------*/
+    .ui-widget{
+        margin-bottom: 37px;
+    }
+    .faq-item.img {
+        padding: 0 50px;
+        display: none;
+    }
+    /*--------------X--------------X---------------*/
+
+
+
+    /*-------------- shop ------------------*/
+    .shop {
+        width: 100%;
+        margin-bottom: 10%;
+        padding: 0;
+        padding-top: 3%;
+    }
+    .shop-info-desc {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .shop-slide .item{
+        box-shadow: none;
+            -moz-box-shadow: none;
+            -webkit-box-shadow: none;
+            -o-box-shadow: none;
+            -ms-box-shadow: none;
+    }
+    /*-------------X-------------X------------*/
+
+
+    /*------------- download ----------------*/
+    .download{
+        margin-bottom: 10%;
+    }
+    .down-item-title {
+        font-size: 23px;
+        width: 80%;
+    }
+    .down-item-desc {
+        width: 90%;
+        line-height: 2.3;
+    }
+    /*-----------X------------X--------------*/
+
+
+    /*-------------- contact --------------*/
+    .cont-items {
+        position: relative;
+    }
+    .form-content {
+        margin-bottom: 10px;
+    }
+    .cont-item-info h4{
+        font-size: 20px;
+    }
+    .cont-item-info span{
+        font-size: 13px;
+    }
+    .contact-item.right {
+        margin-bottom: 17px;
+    }
+    .contact-content .row{
+        flex-flow: wrap-reverse;
+    }
+    .form-top-title{
+        font-size: 23px;
+    }
+    /*--------------X--------------X----------*/
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+    /*---------------  home ---------------*/
+    .navbar-light .navbar-toggler{
+        background-color: white;
+    }
+    .home .navbar {
+        width: 100%;
+        z-index: 99999999;
+    }
+    .navbar-collapse{
+        background-color: white;
+        padding: 10px;
+        z-index: 999999;
+        position: fixed;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        box-shadow: 0px 0px 5px #9e9e9e;
+        -webkit-box-shadow: 0px 0px 5px #9e9e9e;
+        -moz-box-shadow: 0px 0px 5px #9e9e9e;
+        -o-box-shadow: 0px 0px 5px #9e9e9e;
+        -ms-box-shadow: 0px 0px 5px #9e9e9e;
+    }
+    .navbar .navbar-brand {
+        color: #e0dcdc;
+    }
+    .nav-item{
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-item .nav-link span{
+        color: black;
+    }
+    .home-content {
+        height: 100%;
+    }
+    .home-item-img {
+        width: 50%;
+        height: 50%;
+    }
+    .home-item-title {
+        color: white;
+        text-transform: capitalize;
+        font-weight: 700;
+        letter-spacing: .35px;
+        margin-bottom: 20px;
+        font-size: 28px;
+        line-height: 1.7;
+    }
+    .home-item-img {
+        width: 66%;
+        height: 50%;
+    }
+    /*------------X------------X---------------*/
+
+    /*-------------- video ----------------------*/
+    .video{
+        margin-bottom: 5%;
+    }
+    .video-title{
+        font-size: 30px;
+    }
+    .video-desc {
+        width: 85%;
+        line-height: 3;
+        margin-bottom: 30px;
+    }
+    .plyr--video{
+        width: 100%;
+        height: 100%;
+    }
+    .video-prev i {
+        top: 17%;
+        z-index: 9;
+    }
+    /*-------------X------------X-------------------*/
+
+
+    /*----------------- choose ---------------------*/
+    .choose-item {
+        margin-bottom: 25px;
+    }
+    .choose-item:last-child{
+        margin-bottom: 0;
+    }
+    /*------------X--------------X-------------*/
+
+
+    /*--------------- review ----------------*/
+    .review{
+        margin-bottom: 10%;
+    }
+    .review-item-name {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+        font-size: 20px;
+        width: 70%;
+    }
+    .review-item-info {
+        width: 70%;
+        display: block;
+        letter-spacing: 0.35px;
+        text-transform: capitalize;
+        margin-left: 0;
+    }
+    /*------------X---------------X--------------*/
+
+    /*------------------- faq ---------------------*/
+    .ui-widget{
+        margin-bottom: 37px;
+    }
+    .faq-item.img {
+        padding: 0 50px;
+        display: none;
+    }
+    /*--------------X--------------X---------------*/
+
+
+    /*-------------- contact --------------*/
+    .cont-items {
+        position: relative;
+    }
+    .form-content {
+        margin-bottom: 10px;
+    }
+    .cont-item-info h4{
+        font-size: 20px;
+    }
+    .cont-item-info span{
+        font-size: 13px;
+    }
+    .contact-item.right {
+        margin-bottom: 17px;
+    }
+    .contact-content .row{
+        flex-flow: wrap-reverse;
+    }
+    .form-top-title{
+        font-size: 23px;
+    }
+    /*--------------X--------------X----------*/
+
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*------------- review -------------*/
+    .review-item-img {
+        float: none;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .review-item-name {
+        display: block;
+        float: none;
+        margin-left: 0;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+        font-size: 20px;
+        width: 100%;
+    }
+    .review-item-info {
+        float: none;
+        display: block;
+        margin-left: 0;
+        letter-spacing: 0.35px;
+        text-transform: capitalize;
+    }
+    /*----------X-------------X--------*/
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+@media (max-width: 375px){
+
+    /*------------ home ------------*/
+    .home-item-img {
+        display: none;
+    }
+    /*-----------X----------X-----------*/
+
+    /*-------------- review ------------- */
+    .review-item-img {
+        display: block;
+        float: none;
+        margin: auto;
+    }
+    .review-item-name {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 7px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .review-item-info {
+        display: block;
+        letter-spacing: 0.35px;
+        text-transform: capitalize;
+        width: 100%;
+        margin-left: 0;
+    }
+    /*------------X------------X------------*/
+
+    /*-------------- download ------------*/
+    .down-item-icons a{
+        margin-bottom: 10px;
+    }
+    .down-item-icons a:last-child{
+        margin-bottom: 0;
+    }
+    /*--------X-------------X-------------*/
+
+    /*------------- choose --------------*/
+    .choose-spn {
+        font-size: 13px;
+    }
+    .choose-spn {
+        font-size: 13px;
+    }
+    .choose-title {
+        font-size: 25px;
+    }
+    .choose-icone-item i {
+        width: 80px;
+        height: 80px;
+        float: none;
+        margin: auto;
+        margin-bottom: 13px;
+    }
+    .choose-icone-item span {
+        font-size: 16px;
+        margin-bottom: 1px;
+        text-align: center;
+    }
+    .choose-icone-item p {
+        padding-left: 0;
+        text-align: center;
+    }
+    .choose-icone-item {
+        width: 100%;
+        padding: 25px 0;
+    }
+    /*-----------X------------X-------------*/
+
+
+    /*----------------- video -----------------*/
+    .video-title {
+        font-size: 20px;
+    }
+    .video-desc {
+        width: 100%;
+        line-height: 2.4;
+        margin-bottom: 30px;
+        font-size: 12px;
+    }
+    /*-------------X----------X---------------*/
+
+}
