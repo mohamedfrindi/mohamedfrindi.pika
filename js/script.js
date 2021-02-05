@@ -5,7 +5,7 @@ $(document).ready(function () {
     })
 	/*
     setTimeout(function () {
-		$('.loding').slideUp();
+		$('.load').fadeOut();
 	},10000);
 	*/
 });
